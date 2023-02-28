@@ -16,7 +16,11 @@
   - Trying out front-end coding
 - More Info about development, read here:   
 
+## Other Features:
 
+- `Chat`: Player can chat with each other through chat box, spectator can also chat as well
+- `Spectate`: The match can be watch by other, simply by just click on the spectator link
+- `Reconnection`: Player can reconnect to the existing match by simply go to the game link
 
 ## Architecture
 
