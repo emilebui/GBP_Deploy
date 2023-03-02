@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gbp-config
+data:
+  redis_addr: redis-service:6379
+  redis_pwd: ""
+  redis_db: "0"
