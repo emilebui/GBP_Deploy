@@ -102,10 +102,10 @@
 ## Deployments
 ### Do the following steps
 - **Setup config_map**: `kubectl apply -f config_map.yaml`
-- **Deploy redis**: `kubectl apply -f redis.yml`
-- **Deploy WS**: `kubectl apply -f ws.yml`
-- **Deploy FE**: `kubectl apply -f fe.yml`
-- **Deploy Ingress**: `kubectl apply -f ingress.yml`
+- **Deploy redis**: `kubectl apply -f redis.yaml`
+- **Deploy WS**: `kubectl apply -f ws.yaml`
+- **Deploy FE**: `kubectl apply -f fe.yaml`
+- **Deploy Ingress**: `kubectl apply -f ingress.yaml`
 
 ### Note
 - After deploying ingress, you should wait a bit for ingress to return an IP address

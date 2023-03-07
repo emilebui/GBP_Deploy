@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: gbp-ws
-          image: frostwyrm9x/gbp-ws:latest
+          image: frostwyrm9x/gbp_ws:latest
           ports:
             - containerPort: 3000
           env:

@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: gbp-fe
-          image: frostwyrm9x/gbp-fe:prod
+          image: frostwyrm9x/gbp_fe:prod
           ports:
             - containerPort: 3000
 ---
