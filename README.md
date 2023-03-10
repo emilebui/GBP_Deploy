@@ -14,7 +14,7 @@
   - Design a highly-scalable web-socket related application
   - Create a finished product (from design to production)
   - Trying out front-end coding
-- More Info about development, read here:   
+- More Info about development, read here: [dev_blog](https://medium.com/@dragonblade9x/making-a-multiplayer-web-game-with-websocket-that-can-be-scalable-to-millions-of-users-923cc8bd4d3b)
 
 ## Other Features:
 
