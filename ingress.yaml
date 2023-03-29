@@ -3,16 +3,12 @@ kind: Ingress
 metadata:
   name: gbp-ingress
   annotations:
-    nginx.ingress.kubernetes.io/configuration-snippet: |
-      proxy_http_version 1.1;
-      proxy_set_header Upgrade $http_upgrade;
-      proxy_set_header Connection "upgrade";
-      proxy_set_header Host $host;
+    nginx.ingress.kubernetes.io/websocket-services: "gbp-ws-service"
 spec:
   rules:
     - http:
         paths:
-          - path: /ws
+          - path: /ws/
             pathType: Prefix
             backend:
               service:
